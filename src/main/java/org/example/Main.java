@@ -26,7 +26,7 @@ public class Main {
     public static void Aprovacao(double media) {
         if (media >= 7) {
             System.out.println("Status: Aprovado");
-        } else if (media > 5 && media <= 6.9) {
+        } else if (media >= 5 && media <= 6.99) {
             System.out.println("Status: Está em recuperação");
         } else {
             System.out.println("Status: Reprovado");
